@@ -34,7 +34,6 @@
 		292338EA1AA3515800A47A39 /* chat_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292338DC1AA3515800A47A39 /* chat_blank@2x.png */; };
 		292338EB1AA3515800A47A39 /* messages_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292338DE1AA3515800A47A39 /* messages_blank@2x.png */; };
 		292338EC1AA3515800A47A39 /* messages_compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292338DF1AA3515800A47A39 /* messages_compose@2x.png */; };
-		292338ED1AA3515800A47A39 /* profile_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292338E11AA3515800A47A39 /* profile_blank@2x.png */; };
 		292338F01AA3515800A47A39 /* tab_groups@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292338E71AA3515800A47A39 /* tab_groups@2x.png */; };
 		292338F11AA3515800A47A39 /* tab_messages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292338E81AA3515800A47A39 /* tab_messages@2x.png */; };
 		292338F21AA3515800A47A39 /* tab_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292338E91AA3515800A47A39 /* tab_profile@2x.png */; };
@@ -125,6 +124,7 @@
 		29EB240E19E9292500D7AA97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EB240D19E9292500D7AA97 /* AppDelegate.m */; };
 		29EB241619E9292500D7AA97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EB241519E9292500D7AA97 /* Images.xcassets */; };
 		29EB241919E9292500D7AA97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29EB241719E9292500D7AA97 /* LaunchScreen.xib */; };
+		903F07691AAEE6BF00537652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 903F076B1AAEE6BF00537652 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,7 +171,6 @@
 		292338DC1AA3515800A47A39 /* chat_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_blank@2x.png"; sourceTree = "<group>"; };
 		292338DE1AA3515800A47A39 /* messages_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages_blank@2x.png"; sourceTree = "<group>"; };
 		292338DF1AA3515800A47A39 /* messages_compose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages_compose@2x.png"; sourceTree = "<group>"; };
-		292338E11AA3515800A47A39 /* profile_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_blank@2x.png"; sourceTree = "<group>"; };
 		292338E71AA3515800A47A39 /* tab_groups@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_groups@2x.png"; sourceTree = "<group>"; };
 		292338E81AA3515800A47A39 /* tab_messages@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_messages@2x.png"; sourceTree = "<group>"; };
 		292338E91AA3515800A47A39 /* tab_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_profile@2x.png"; sourceTree = "<group>"; };
@@ -345,6 +344,8 @@
 		29EB241519E9292500D7AA97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29EB241819E9292500D7AA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		29EB254F19E92ACD00D7AA97 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		903F076A1AAEE6BF00537652 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		903F076C1AAEE6C300537652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -570,7 +571,6 @@
 		292338E01AA3515800A47A39 /* profile */ = {
 			isa = PBXGroup;
 			children = (
-				292338E11AA3515800A47A39 /* profile_blank@2x.png */,
 			);
 			path = profile;
 			sourceTree = "<group>";
@@ -857,6 +857,7 @@
 				29EB240619E9292500D7AA97 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		29EB240619E9292500D7AA97 /* Products */ = {
 			isa = PBXGroup;
@@ -883,6 +884,7 @@
 			isa = PBXGroup;
 			children = (
 				29EB240919E9292500D7AA97 /* Info.plist */,
+				903F076B1AAEE6BF00537652 /* InfoPlist.strings */,
 				29EB240A19E9292500D7AA97 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -989,11 +991,11 @@
 				292338F11AA3515800A47A39 /* tab_messages@2x.png in Resources */,
 				292338D01AA350A400A47A39 /* LoginView.xib in Resources */,
 				292338C81AA350A400A47A39 /* AddressBookView.xib in Resources */,
-				292338ED1AA3515800A47A39 /* profile_blank@2x.png in Resources */,
 				292338EA1AA3515800A47A39 /* chat_blank@2x.png in Resources */,
 				29EB241919E9292500D7AA97 /* LaunchScreen.xib in Resources */,
 				292338F01AA3515800A47A39 /* tab_groups@2x.png in Resources */,
 				292339C01AA38E0F00A47A39 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
+				903F07691AAEE6BF00537652 /* InfoPlist.strings in Resources */,
 				292338CC1AA350A400A47A39 /* MessagesView.xib in Resources */,
 				292339C71AA38E0F00A47A39 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				292338CA1AA350A400A47A39 /* MessagesCell.xib in Resources */,
@@ -1127,6 +1129,15 @@
 				29EB241819E9292500D7AA97 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		903F076B1AAEE6BF00537652 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903F076A1AAEE6BF00537652 /* zh-Hans */,
+				903F076C1AAEE6C300537652 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
